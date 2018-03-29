@@ -2,7 +2,7 @@ import numpy as np
 from scipy.interpolate import CubicSpline
 import matplotlib.pyplot as plt
 
-tab=np.loadtxt('dane.txt')
+tab=np.loadtxt('input.txt')
 tab=np.array(tab)
 size=np.size(tab)
 
